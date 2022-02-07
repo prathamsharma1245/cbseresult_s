@@ -1,0 +1,93 @@
+.header2{
+    background-color: rgb(0, 206, 209);
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans', sans-serif;
+}
+.cbse{
+    display: flex;
+    text-align: left;
+    font-size: 24px;
+    padding:10px;
+    margin: 0px 0px -10px 10px;
+    align-items:flex-end;
+    top:0px;
+    color: white;
+}
+.cbse-logo{
+    width:69px;
+    height:70px;
+}
+.logo{
+    width:69px;
+    height:67px;
+}
+.main-form{
+    font-family: 'Open Sans', sans-serif;
+}
+.form-subhead p{
+    text-align: right;
+    font-size: large;
+    font-style: bold;
+    padding:0px;
+}
+.first-line{
+    text-align: center;
+}
+.form{
+    align-items: center;
+    text-align: center;}
+
+/* .real-form{
+}
+.line-footer{
+} */
+.footer{
+    margin:99px 0px 0px 0px;
+    padding:10px;
+}
+@media screen and (max-width:730px){
+    .cbse{
+        display: flex;
+        text-align: left;
+        font-size: 14px;
+    }
+    .header2{
+        display: flex;
+        flex-direction: row;
+    }
+    .line-footer{
+        font-size: 4;
+    }
+
+}
+.streams-button{
+align-content: center;
+text-align: center;
+/* display: flex; */
+flex-wrap: wrap;
+ }
+.button{
+    margin: 4px;
+    padding:9px;
+    text-align: right;
+}
+
+.result-table1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+@media screen and (max-width:730px){
+    .image-result{
+        width:270px;
+        right:auto
+    }
+}
+@media screen and (max-width:360px){
+    .image-result{
+        width:220px;
+        right:auto
+    }
+}
